@@ -1,0 +1,81 @@
+@import url(<linkrel="preconnect"href="https://fonts.googleapis.com"><linkrel="preconnect"href="https://fonts.gstatic.com"crossorigin><linkhref="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"rel="stylesheet">);
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color: darkslateblue;
+  color: white;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 100px;
+}
+
+h2 {
+  color: yellow;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  margin-top: 15px;
+  color: red;
+  display: inline-block;
+}
+
+.playground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  font-size: 100px;
+  margin-top: 0px;
+  color: yellow;
+  position: absolute;
+  top: 35%;
+}
+
+h5 {
+  font-size: 100px;
+  margin-top: 0px;
+  color: yellow;
+  position: absolute;
+  top: 35%;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto 20px auto;
+  width: 500px;
+}
+
+button {
+  width: 500px;
+  height: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid yellow;
+  margin: 5px;
+  background-color: blue;
+  color: yellow;
+}
+
+button:hover {
+  background: yellow !important;
+  color: blue;
+}
